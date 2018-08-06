@@ -1,0 +1,21 @@
+ @keyframes newAnimation {
+
+            from {
+                left:0;
+                
+            }
+
+            to {
+                left:200px;
+
+            }
+
+        }
+         #hrIndexP1 {
+            position: absolute;
+            left:0;
+            top:0;
+            animation:newAnimation 10s;
+
+
+        }
