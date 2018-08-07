@@ -1,28 +1,25 @@
 
 
- @keyframes newAnimation {
-
-            from {
-                left:0;
-                
-            }
-
-            to {
-                left:200px;
-
-            }
-
+ #navbarIndexP{
+margin-right: 5px;
+margin-top: 15%;
         }
-         #hrIndexP1 {
-            position: absolute;
-            left:0;
-            top:0;
-            animation:newAnimation 10s;
+        nav ul a:hover{
+            /*font-weight: bold;*/
+            
 
-
+            /*color:red;*/
+            font-family: Georgia, 'Times New Roman', Times, serif;
+             
+              
         }
+                nav ul a{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+                }
 
         nav ul a:hover{
             color:  black !important;
             background-color: transparent !important;
         }
+       
