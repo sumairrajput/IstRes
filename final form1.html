@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="shortcut icon" href="image.png"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>   
+        <link rel="stylesheet" type="text/css" href="final form1.css"/>
+</head>
+<body>
+    <div>
+    <fieldset id="fieldset">
+        <legend><b>Student Registration Form</b></legend>
+    <form action="thanku.html" method="get">
+        <input id="pic"  type="file" name="file"/>
+        <label>Name:</label>
+        <input required type="text" name="username" placeholder="enter your Name"/><br><br>
+        <label>Father Name:</label>
+        <input required type="text" name="fathername" placeholder="enter your FarherName"/><br><br>
+        <label>student N.I.C:</label>
+        <input required type="number" name="nic" placeholder="e.g. 66540-8574287-6"/><br><br>
+        <label>Permanent Address:</label>
+        <input required type="address" name="address" placeholder="Permanent address"/><br><br>
+        <label>City:</label>
+        <select required>
+            <option  selected >------------</option>
+            <option>Faisalabad</option>
+            <option>Lahore</option>
+            <option>Multan</option>
+            <option>Karachi</option>
+            <option>Peshawar</option>
+            <option>Quetta</option>
+            <option>Sarghoda</option>
+            <option>Sheikupura</option>
+        </select><br><br>
+        <label>D.O.B:</label>
+        <input required id="date" type="date" name="date" placeholder="Student date of birth"/><br><br>
+        <label>Email:</label>
+        <input required type="email" name="email" placeholder="e.g. abc@gmail.com"/><br><br>
+        <label>Phone No:</label>
+        <input required type="tel" name="phone" placeholder="Student phone.no"/><br><br>
+        <label>select your gender:</label><br>
+        <input type="radio" name="gender" value="Male" checked/>Male
+        <input type="radio" name="gender" value="Female"/>Female <br><br>       
+        <label>Student previous academic degree</label><br><br>
+        <input type="checkbox" name="val1" />Matric
+        <input type="checkbox" name="val2" />Intermediate<br>
+        <input type="checkbox" name="val3" checked/>Graduation<br><br><br>
+        <textarea type="textarea" name="textarea" cols="50" rows="4" placeholder="Drop your comments"></textarea>
+        <input id="reset" type="Reset" value="Reset"/>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input id="submit" type="Submit" value="Submit Form" />
+     </form>
+   </fieldset>
+   </div> 
+</body>
+</html>
